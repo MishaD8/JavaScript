@@ -8,7 +8,7 @@ console.log('JS')
 console.log('Учим')
 
 // Вариант 3
-console.log('Учим')  console.log('JS')
+// console.log('Учим')  console.log('JS') не верно
 
 // Вариант 4
 console.log('Учим');
