@@ -98,9 +98,3 @@ console.log(typeof numNine.toFixed(1)); // string
 console.log(+numNine.toFixed(1));
 console.log(Number(numNine.toFixed(1)));
 
-
-
-
-
-
-
