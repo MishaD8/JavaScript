@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+@font-face {
+    font-family: CalSans;
+    font-display: swap;
+    src: url("../Guitar/fonts/CalSans-SemiBold.woff2") format("woff2"), url("../Guitar/fonts/CalSans-SemiBold.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+*, *::before,*::after{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    min-width: 320px;
+}
+body{
+    line-height: 1;
+    font-family: Poppins;
+    color: #666666;
+}
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto;
+}
+
+[class*="__container"]{ 
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
